@@ -10,8 +10,8 @@ This project focuses on predicting the **`Opening Stock Prices`** of HDFC Bank, 
 ### Model Architecture
 #### Data Overview and Preprocessing
 - HDFC Bank stock price prediction dataset with **`5306 entries and 15 columns.`**
-- Addressed missing values in **'Trades, Deliverable Volume, and %Deliverble.`**
-- **`Trades'** column dropped due to extensive missing data, resulting in a cleaned dataset ready for analysis.
+- Addressed missing values in **`Trades, Deliverable Volume, and %Deliverble.`**
+- **`Trades`** column dropped due to extensive missing data, resulting in a cleaned dataset ready for analysis.
 - Imputed missing values in **`Deliverable Volume`** and **`%Deliverble`** columns using their respective **`means`**; the updated dataset is displayed.
 
 #### Time Series Analysis and Visualization
