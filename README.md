@@ -15,24 +15,24 @@ This project focuses on predicting the **`Opening Stock Prices`** of HDFC Bank, 
 - Imputed missing values in **`Deliverable Volume`** and **`%Deliverble`** columns using their respective **`means`**; the updated dataset is displayed.
 
 #### Time Series Analysis and Visualization
-- Plotted closing prices over time using Matplotlib and Plotly Express.
-- Visualized trading volume trends over time.
+- Plotted closing `prices` over time using Matplotlib and Plotly Express.
+- Visualized trading `volume` trends over time.
 
 #### Statistical Analysis
 - Provided summary statistics for key features.
 - Conducted correlation analysis, presenting a correlation matrix and scatter plot matrix.
-- Interpreted correlations, with a focus on the 'Close' feature.
-
+- Interpreted correlations, with a focus on the `Close` feature.
+  
 #### Correlation Matrix Insights
-- Analyzed correlations among price-related features, volume, turnover, deliverable volume, and % deliverable.
-- Notable insights include strong positive correlations among price-related features, weak correlation of volume with prices, and the relationship between deliverable volume and total volume.
+- Analyzed correlations among `price-related features, volume, turnover, deliverable volume, and % deliverable.`
+- Notable insights include `strong positive correlations` among `price-related features`, `weak correlation` of `volume with prices`, and the relationship between `deliverable volume` and `total volume.`
 
 #### Lag Analysis
-- Conducted lag analysis by creating lag features for closing prices.
-- Visualized autocorrelation of closing prices with different lag periods using Plotly Express.
+- Conducted lag analysis by creating lag features for `closing prices.`
+- Visualized `autocorrelation` of closing prices with different lag periods using Plotly Express.
 
 #### Feature Scaling and Normalization
-- Implemented StandardScaler for feature scaling and normalization.
+- Implemented `StandardScaler` for feature scaling and normalization.
 - Developed a concise data_prep function for lookback, future, and scaler-based data preparation, returning input sequences (X), targets (y), original training data (df_train), and date index.
 
 #### LSTM Model and Hyperparameters
