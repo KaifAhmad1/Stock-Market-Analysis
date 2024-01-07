@@ -5,7 +5,7 @@ This project focuses on predicting the **`Opening Stock Prices`** of HDFC Bank, 
 
 ## Technical Overview
 ### Dataset Info
-- The dataset comprises historical stock data with **5305** data points and **15** features, including **Date, Prev-Close, Open, High, Low, Last, Close, VWAP, Volume, Turnover, Trades, Deliverable Volume, %Deliverble.**
+- The dataset comprises historical stock data with **`5305`** data points and **`15`** features, including **`Date, Prev-Close, Open, High, Low, Last, Close, VWAP, Volume, Turnover, Trades, Deliverable Volume, %Deliverble.`**
 
 ### Model Architecture
 #### Data Overview and Preprocessing
@@ -36,12 +36,12 @@ This project focuses on predicting the **`Opening Stock Prices`** of HDFC Bank, 
 - Developed a concise data_prep function for lookback, future, and scaler-based data preparation, returning input sequences (X), targets (y), original training data (df_train), and date index.
 
 #### LSTM Model and Hyperparameters
-- **Parameters:** Lookback window = 30, Future time steps = 1
-- **Architecture:** 3-layer LSTM (50 units), Dropout (0.2), Final LSTM (50 units), Dropout (0.2), Dense (1 unit)
-- **Training:** Adam optimizer, Mean Squared Error loss, 100 epochs, Batch size 64, Early stopping (patience=15)
+- **Parameters:** `Lookback window = 30, Future time steps = 1`
+- **Architecture:** `3-layer LSTM (50 units), Dropout (0.2), Final LSTM (50 units), Dropout (0.2), Dense (1 unit)`
+- **Training:** `Adam optimizer, Mean Squared Error loss, 100 epochs, Batch size 64, Early stopping (patience=15)`
 
 ##### Training History
-- Successfully trained the model with decreasing loss over 100 epochs.
+- Successfully trained the model with decreasing loss over `100` epochs.
 
 ##### Prediction and Output
 - Applied the model for opening value predictions.
@@ -49,5 +49,5 @@ This project focuses on predicting the **`Opening Stock Prices`** of HDFC Bank, 
 - Generated an output DataFrame with dates and predicted descaled opening values.
 
 #### Loss Visualization
-- Leveraged Plotly (px.line) to visualize training (solid, blue) and validation (dashed, red) losses.
-- Incorporated circular markers for training and 'x' markers for validation.
+- Leveraged Plotly `(px.line)` to visualize training (solid, blue) and validation (dashed, red) losses.
+- Incorporated circular markers for training and `x` markers for validation.
